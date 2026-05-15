@@ -224,6 +224,22 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const menuButton = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+
+    if (menuButton && navLinks) {
+      menuButton.addEventListener("click", function () {
+        navLinks.classList.toggle("open");
+        menuButton.setAttribute(
+          "aria-expanded",
+          navLinks.classList.contains("open") ? "true" : "false"
+        );
+      });
+    }
+  });
+</script>
+  
 </body>
 </html>
