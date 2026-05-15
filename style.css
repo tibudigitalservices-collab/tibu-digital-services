@@ -775,4 +775,33 @@ body {
   .nav-links {
     background: #020814 !important;
   }
+}/* FIX MOBILE MENU CLICK */
+@media (max-width: 850px) {
+  .nav {
+    position: relative;
+  }
+
+  .menu-toggle {
+    cursor: pointer;
+    z-index: 1001;
+  }
+
+  .nav-links {
+    display: none !important;
+    width: 100%;
+    flex-direction: column;
+    background: #020814;
+    padding: 18px 16px 22px;
+    border-top: 1px solid rgba(255,255,255,0.15);
+  }
+
+  .nav-links.open {
+    display: flex !important;
+  }
+
+  .nav-links a {
+    color: white !important;
+    font-size: 18px;
+    padding: 12px 0;
+  }
 }
