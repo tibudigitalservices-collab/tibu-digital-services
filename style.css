@@ -444,6 +444,10 @@ footer {
     display: block;
   }
 
+  .nav {
+    flex-wrap: wrap;
+  }
+
   .nav-links {
     display: none;
     width: 100%;
@@ -454,10 +458,6 @@ footer {
 
   .nav-links.open {
     display: flex;
-  }
-
-  .nav {
-    flex-wrap: wrap;
   }
 
   .hero {
@@ -492,40 +492,77 @@ footer {
   .contact-logo {
     width: 190px;
   }
+}
 
+/* FINAL PHONE FIX */
 @media (max-width: 600px) {
-  .section {
-    padding: 42px 0;
+  body {
+    overflow-x: hidden;
   }
 
   .container {
     width: 92%;
   }
 
+  .section {
+    padding: 46px 0;
+  }
+
   .site-header {
-    position: relative;
+    position: sticky;
+    top: 0;
+    background: #06111f;
   }
 
   .nav {
-    min-height: auto;
-    padding: 12px 0;
+    width: 100%;
+    min-height: 76px;
+    padding: 10px 16px;
+    gap: 12px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    max-width: 170px;
+    overflow: hidden;
   }
 
   .logo img {
-    width: 120px;
+    width: 165px !important;
+    max-width: 165px !important;
+    height: auto !important;
+    object-fit: contain;
+  }
+
+  .menu-toggle {
+    width: 58px;
+    height: 58px;
+    font-size: 26px;
+    flex-shrink: 0;
+  }
+
+  .nav-links {
+    background: #06111f;
+    padding: 14px 0 18px;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+    padding: 8px 0;
   }
 
   .hero {
-    background: #06111f;
-    padding-top: 20px;
+    padding-top: 34px;
   }
 
   .hero-grid {
-    gap: 24px;
+    gap: 28px;
   }
 
   .hero-logo {
-    width: 165px;
+    width: 165px !important;
+    max-width: 165px !important;
     margin-bottom: 18px;
   }
 
@@ -538,6 +575,7 @@ footer {
   h2 {
     font-size: 28px;
     line-height: 1.15;
+    letter-spacing: -0.5px;
   }
 
   .lead {
@@ -557,18 +595,14 @@ footer {
   .hero-card {
     padding: 24px;
     border-radius: 22px;
+    margin-top: 8px;
   }
 
-  .dark-card-logo {
-    width: 190px;
-  }
-
-  .trust-grid,
-  .preview-grid,
-  .split,
-  .process,
-  .contact-grid {
-    grid-template-columns: 1fr;
+  .dark-card-logo,
+  .contact-logo {
+    width: 180px !important;
+    max-width: 180px !important;
+    height: auto !important;
   }
 
   .preview-card {
@@ -580,20 +614,33 @@ footer {
     margin-top: 18px;
   }
 
+  .highlight-card {
+    padding: 26px;
+    border-radius: 22px;
+  }
+
   .cta-card {
     padding: 26px;
     border-radius: 22px;
   }
 
-  .contact-logo {
-    width: 190px;
+  .contact {
+    padding-top: 50px;
   }
 
   .contact-card {
     padding: 24px;
+    border-radius: 24px;
+    margin-top: 20px;
+  }
+
+  .footer-content {
+    gap: 18px;
   }
 
   .footer-content img {
-    width: 135px;
+    width: 135px !important;
+    max-width: 135px !important;
+    height: auto !important;
   }
 }
