@@ -4,242 +4,609 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>TIBU Digital Services | Digital Help for Small Businesses</title>
-  <meta name="description" content="TIBU Digital Services helps small businesses and professionals with websites, business setup, translations, resumes, social media setup, and basic tech support in English and Spanish." />
+  <title>TIBU Digital Services | Websites, Automation & Digital Systems for US Businesses</title>
+  <meta name="description" content="TIBU Digital Services builds digital infrastructure for small and mid-sized businesses in the United States: high-performance websites, private business systems, process automation, technical SEO, AI search readiness, and bilingual digital support." />
+  <link rel="canonical" href="https://tibudigitalservices.com/" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#030712" />
 
-  <meta property="og:title" content="TIBU Digital Services" />
-  <meta property="og:description" content="Digital help for small businesses and professionals — websites, business setup, translations, resumes, and tech support." />
+  <!-- Open Graph / Social -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://tibudigitalservices.com" />
-  <meta property="og:image" content="tibu-logo-light.png" />
+  <meta property="og:url" content="https://tibudigitalservices.com/" />
+  <meta property="og:title" content="TIBU Digital Services | Digital Infrastructure for US Businesses" />
+  <meta property="og:description" content="Websites, private systems, automation, technical SEO and AI-search-ready digital infrastructure for growth-minded businesses." />
+  <meta property="og:image" content="https://tibudigitalservices.com/assets/tibu-logo-dark.png" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://tibudigitalservices.com/" />
+  <meta property="twitter:title" content="TIBU Digital Services | Websites, Automation & Digital Systems" />
+  <meta property="twitter:description" content="Digital infrastructure for businesses ready to grow: websites, private systems, automation, technical SEO and bilingual support." />
+  <meta property="twitter:image" content="https://tibudigitalservices.com/assets/tibu-logo-dark.png" />
+
+  <!-- Preloads & Fonts -->
+  <link rel="preload" as="image" href="assets/tibu-logo-dark.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24..48,300..600,0..1,0&display=swap" rel="stylesheet" />
   <link rel="icon" type="image/png" href="tibu-favicon.png" />
   <link rel="stylesheet" href="style.css" />
+
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://tibudigitalservices.com/#website",
+        "url": "https://tibudigitalservices.com/",
+        "name": "TIBU Digital Services",
+        "description": "Digital infrastructure for businesses ready to grow, including high-performance websites, private business systems, process automation, technical SEO and AI search readiness."
+      },
+      {
+        "@type": ["ProfessionalService", "Organization"],
+        "@id": "https://tibudigitalservices.com/#organization",
+        "name": "TIBU Digital Services",
+        "url": "https://tibudigitalservices.com/",
+        "logo": "https://tibudigitalservices.com/assets/tibu-logo-dark.png",
+        "image": "https://tibudigitalservices.com/assets/tibu-logo-dark.png",
+        "description": "TIBU Digital Services builds digital infrastructure for small and mid-sized businesses in the United States, including high-performance websites, private business systems, process automation, technical SEO, AI search readiness and bilingual digital support.",
+        "areaServed": "United States",
+        "knowsAbout": [
+          "Digital Engineering",
+          "Web Development",
+          "Process Automation",
+          "Private Business Systems",
+          "Technical SEO",
+          "AI Search Readiness",
+          "Bilingual Digital Services"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "tibudigitalservices@gmail.com",
+          "contactType": "customer service",
+          "availableLanguage": ["English", "Spanish"]
+        },
+        "sameAs": [
+          "https://www.instagram.com/tibudigitalservices/"
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "@id": "https://tibudigitalservices.com/#services",
+        "name": "Digital infrastructure services",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "High-Performance Websites" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Private Business Systems" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Process Automation" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Technical SEO and AI Search Readiness" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bilingual Digital Support" } }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is TIBU Digital Services?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "TIBU Digital Services is a digital engineering and business growth partner for small and mid-sized businesses in the United States. The company builds high-performance websites, private business systems, process automation, technical SEO foundations, AI-search-ready content structures and bilingual digital support."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is TIBU a marketing agency or a technology company?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "TIBU is not a generic marketing agency. It combines web engineering, conversion-focused design, process automation and technical SEO to build digital infrastructure that supports real business operations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you build websites only, or also private systems?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "TIBU builds both public websites and private business systems, including private portals, internal dashboards, document areas, workflow tools and operational systems."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can TIBU help businesses in the United States?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. TIBU is positioned for small and mid-sized businesses in the United States that need a clearer online presence, better digital operations or bilingual English-Spanish support."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are TIBU websites optimized for Google and AI search?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "TIBU structures websites with semantic HTML, clear headings, helpful content, service clarity, internal linking and Schema.org where appropriate. TIBU does not guarantee rankings, but builds a stronger technical and content foundation for search visibility."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does TIBU provide bilingual English and Spanish support?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. TIBU supports businesses serving English and Spanish-speaking customers through bilingual communication, content support and digital presence planning."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does TIBU work with sensitive or private projects?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. TIBU has experience with private portals and sensitive digital projects. Requirements are discussed carefully during consultation and confidential client information is not exposed publicly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the consultation process work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The process starts with a consultation to understand the business, goals, audience, current tools and digital needs. TIBU then recommends the right website, system, automation or SEO structure before work begins."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
-
 <body>
-  <header class="site-header">
-    <nav class="container nav">
-      <a href="index.html" class="logo" aria-label="TIBU Digital Services Home">
-        <img src="tibu-logo-light.png" alt="TIBU Digital Services logo">
-      </a>
+  <div class="site-shell">
+    <header id="siteHeader" class="site-header">
+      <nav class="container nav" aria-label="Main navigation">
+        <a href="#home" class="logo" aria-label="TIBU Digital Services home">
+          <img src="assets/tibu-logo-dark.png" alt="TIBU Digital Services logo" width="168" height="32" decoding="async" />
+        </a>
 
-      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        <div class="nav-links" id="navLinks" role="navigation" aria-label="Desktop menu">
+          <a href="#home" class="active-link" aria-current="page">Home</a>
+          <a href="#about">About</a>
+          <a href="#expertise">Experience</a>
+          <a href="#solutions">Solutions</a>
+          <a href="#faq">FAQ</a>
+        </div>
 
-      <div class="nav-links">
-        <a href="index.html" class="active-link">Home</a>
-        <a href="services.html">Services</a>
-        <a href="services.html#care">Care Plans</a>
-        <a href="#process">Process</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
-  </header>
+        <div class="nav-actions">
+          <a href="https://www.instagram.com/tibudigitalservices/" class="social-icon" target="_blank" rel="noopener" aria-label="Follow us on Instagram">
+            <span class="material-symbols-rounded" aria-hidden="true">photo_camera</span>
+          </a>
+          <a href="https://calendly.com/tibudigitalservices/30min" class="btn btn-primary" target="_blank" rel="noopener" aria-label="Book a consultation">Start a Project</a>
+          <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+            <span class="material-symbols-rounded" aria-hidden="true">menu</span>
+          </button>
+        </div>
+      </nav>
+    </header>
 
-  <main>
-    <section class="hero section">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <img src="tibu-logo-light.png" alt="TIBU Digital Services logo" class="hero-logo">
-          <p class="eyebrow">Online support • English & Spanish</p>
-          <h1>Digital help that makes your business look ready.</h1>
-          <p class="lead">
-            We help small businesses and professionals build a clean online presence, get organized,
-            and feel confident with digital tools — without making the process confusing.
-          </p>
-
-          <div class="buttons">
-            <a class="btn primary" href="https://calendly.com/tibudigitalservices/30min" target="_blank" rel="noopener">Book Consultation</a>
-            <a class="btn dark" href="services.html">View Services Catalog</a>
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero" aria-labelledby="hero-heading">
+        <div class="glow-bg" aria-hidden="true"></div>
+        <div class="container hero-container">
+          <div class="hero-content reveal">
+            <div class="badge" role="text">
+              <span class="pulse-dot" aria-hidden="true"></span>
+              Digital infrastructure for businesses ready to grow
+            </div>
+            <h1 id="hero-heading">Websites, systems and automation built for real business growth.</h1>
+            <p class="lead">
+              TIBU helps small and mid-sized businesses in the United States build fast websites, organize operations, automate manual work and prepare their digital presence for Google, AI search and bilingual customers.
+            </p>
+            <div class="hero-cta">
+              <a href="https://calendly.com/tibudigitalservices/30min" class="btn btn-primary btn-lg" target="_blank" rel="noopener" aria-label="Book a consultation">
+                Book Consultation
+                <span class="material-symbols-rounded" aria-hidden="true">arrow_forward</span>
+              </a>
+              <a href="#about" class="btn btn-secondary btn-lg" aria-label="Learn more about TIBU">See What TIBU Builds</a>
+            </div>
+            <aside class="hero-trust" aria-label="Industries we serve">
+              <p>Built for businesses that need more than a basic website:</p>
+              <div class="trust-tags">
+                <span>Small Businesses</span>
+                <span>Real Estate</span>
+                <span>Tourism</span>
+                <span>Private Teams</span>
+                <span>Professional Services</span>
+              </div>
+            </aside>
           </div>
-
-          <p class="note">Website setup starts at $869. A consultation is required before final pricing is confirmed.</p>
-        </div>
-
-        <aside class="hero-card">
-          <img src="tibu-logo-dark.png" alt="TIBU Digital Services logo" class="dark-card-logo">
-          <p class="eyebrow light">Built for small businesses</p>
-          <h2>Websites, setup, translations, resumes, and tech support.</h2>
-          <p>Simple steps, clear starting prices, and support in English and Spanish.</p>
-
-          <div class="mini-list">
-            <span>Websites</span>
-            <span>Business Setup</span>
-            <span>Translations</span>
-            <span>Resume Help</span>
-            <span>Care Plans</span>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <section class="section trust-strip">
-      <div class="container trust-grid">
-        <div>
-          <strong>Clear process</strong>
-          <span>No guessing. We explain what is included before we start.</span>
-        </div>
-        <div>
-          <strong>Bilingual support</strong>
-          <span>Service available in English and Spanish.</span>
-        </div>
-        <div>
-          <strong>Appointment-based</strong>
-          <span>Calls are scheduled after booking so every client gets focused support.</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="section-title">
-          <p class="eyebrow">What we do</p>
-          <h2>Digital services for businesses and professionals who need help getting set up.</h2>
-          <p>Start with the service you need today, then book a consultation if your project needs a custom quote.</p>
-        </div>
-
-        <div class="preview-grid">
-          <a class="preview-card" href="services.html#website">
-            <span>01</span>
-            <h3>Website Setup</h3>
-            <p>Professional mobile-friendly websites with service details, contact options, and appointment links.</p>
-          </a>
-
-          <a class="preview-card" href="services.html#care">
-            <span>02</span>
-            <h3>Website Care & Protection</h3>
-            <p>Ongoing website checks, small updates, link testing, and support after launch.</p>
-          </a>
-
-          <a class="preview-card" href="services.html#business">
-            <span>03</span>
-            <h3>Business Setup</h3>
-            <p>Google Business, social media setup, business email guidance, and online account help.</p>
-          </a>
-
-          <a class="preview-card" href="services.html#documents">
-            <span>04</span>
-            <h3>Documents & Translation</h3>
-            <p>English ↔ Spanish translation, resume help, business bios, flyers, menus, and more.</p>
-          </a>
-        </div>
-
-        <div class="center-button">
-          <a class="btn primary" href="services.html">Open Full Services Catalog</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section soft">
-      <div class="container split">
-        <div>
-          <p class="eyebrow">Website setup</p>
-          <h2>Starting at $869, with a required consultation.</h2>
-          <p class="lead small">
-            Every website is different. Before confirming the final price, we meet with the client to understand
-            the business, goals, pages, content, features, timeline, and support needed.
-          </p>
-        </div>
-
-        <div class="highlight-card">
-          <h3>Why we require a meeting</h3>
-          <ul>
-            <li>To understand the business and target clients</li>
-            <li>To know how many pages or sections are needed</li>
-            <li>To review content, logo, photos, and branding</li>
-            <li>To explain domain, hosting, and care plan options</li>
-            <li>To give a clear final quote before starting</li>
-          </ul>
-          <a class="btn dark" href="services.html#website">See Website Details</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="process" class="section">
-      <div class="container process">
-        <div>
-          <p class="eyebrow">Our process</p>
-          <h2>A better client experience from the first message.</h2>
-          <p class="lead small">We ask the right questions first, then recommend the best option for the project.</p>
-        </div>
-
-        <div class="steps">
-          <div class="step"><span>1</span><h3>Book a consultation</h3><p>We learn about your business, goals, timeline, and needs.</p></div>
-          <div class="step"><span>2</span><h3>Get a clear recommendation</h3><p>We confirm the service, what is included, what is not included, and the final quote.</p></div>
-          <div class="step"><span>3</span><h3>Start the project</h3><p>Website projects require a deposit before work begins.</p></div>
-          <div class="step"><span>4</span><h3>Launch and support</h3><p>After launch, you can choose a Website Care & Protection Membership.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section cta-band">
-      <div class="container cta-card">
-        <div>
-          <p class="eyebrow light">Ready when you are</p>
-          <h2>Let’s choose the right digital setup for your business.</h2>
-          <p>Book a consultation and tell us what you need help with. We’ll guide you from there.</p>
-        </div>
-        <a class="btn primary" href="https://calendly.com/tibudigitalservices/30min" target="_blank" rel="noopener">Book Consultation</a>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact">
-      <div class="container contact-grid">
-        <div>
-          <img src="tibu-logo-dark.png" alt="TIBU Digital Services logo" class="contact-logo">
-          <p class="eyebrow light">Contact</p>
-          <h2>Book a consultation or send us a message.</h2>
-          <p>We offer online support through Instagram, email, and scheduled calls after booking.</p>
-        </div>
-
-        <div class="contact-card">
-          <h3>TIBU Digital Services</h3>
-          <p>Simple digital help in English & Spanish.</p>
-          <a href="https://www.instagram.com/tibudigitalservices/" target="_blank" rel="noopener"><strong>Instagram:</strong> @tibudigitalservices</a>
-          <a href="mailto:tibudigitalservices@gmail.com"><strong>Email:</strong> tibudigitalservices@gmail.com</a>
-          <span><strong>Website:</strong> tibudigitalservices.com</span>
-          <span><strong>Client communication:</strong> Instagram, email, and appointment-based calls</span>
-          <span><strong>Calls:</strong> Available by appointment after booking</span>
-
-          <div class="buttons column">
-            <a class="btn primary" href="https://calendly.com/tibudigitalservices/30min" target="_blank" rel="noopener">Book Consultation</a>
-            <a class="btn dark" href="https://www.instagram.com/tibudigitalservices/" target="_blank" rel="noopener">Message Us on Instagram</a>
-            <a class="btn light-btn" href="mailto:tibudigitalservices@gmail.com">Send an Email</a>
+          <div class="hero-visual reveal">
+            <div class="growth-panel" aria-label="Digital presence plan preview">
+              <div class="window-header">
+                <div class="dots"><span></span><span></span><span></span></div>
+                <span>Business digital readiness</span>
+              </div>
+              <div class="readiness-content">
+                <div class="readiness-score">
+                  <span>What TIBU improves</span>
+                  <strong>Trust, clarity and operations</strong>
+                  <p>A website should not be a digital brochure. It should help people understand you, contact you and work with your business more easily.</p>
+                </div>
+                <div class="readiness-list">
+                  <div><span class="material-symbols-rounded" aria-hidden="true">speed</span><strong>Fast website experience</strong><small>Mobile-first pages built for clarity and performance.</small></div>
+                  <div><span class="material-symbols-rounded" aria-hidden="true">search</span><strong>Search-ready structure</strong><small>Content organized for Google, AI answers and real customers.</small></div>
+                  <div><span class="material-symbols-rounded" aria-hidden="true">hub</span><strong>Connected business tools</strong><small>Forms, booking links, client portals and workflow support.</small></div>
+                  <div><span class="material-symbols-rounded" aria-hidden="true">translate</span><strong>English & Spanish support</strong><small>Digital presence for businesses serving bilingual audiences.</small></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </section>
+
+      <!-- Executive Summary / GEO Optimized -->
+      <section id="about" class="section section-spaced" aria-labelledby="about-heading">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2 class="eyebrow">Positioning</h2>
+            <h3 id="about-heading" class="section-title">Not another marketing agency.</h3>
+          </div>
+          <div class="geo-grid">
+            <article class="geo-card reveal">
+              <div class="geo-icon"><span class="material-symbols-rounded" aria-hidden="true">info</span></div>
+              <div class="geo-text">
+                <h4>What is TIBU Digital Services?</h4>
+                <p>TIBU Digital Services is a digital engineering and business growth partner for US businesses that need stronger online infrastructure, not just prettier pages.</p>
+              </div>
+            </article>
+            <article class="geo-card reveal" style="--delay: 0.1s">
+              <div class="geo-icon"><span class="material-symbols-rounded" aria-hidden="true">group</span></div>
+              <div class="geo-text">
+                <h4>Who do we help?</h4>
+                <p>We help small businesses, real estate companies, tourism operators, professional services, private organizations and teams that need internal systems or bilingual customer support.</p>
+              </div>
+            </article>
+            <article class="geo-card reveal" style="--delay: 0.2s">
+              <div class="geo-icon"><span class="material-symbols-rounded" aria-hidden="true">build</span></div>
+              <div class="geo-text">
+                <h4>How do we solve problems?</h4>
+                <p>We combine web engineering, conversion-focused design, automation and technical SEO so your website can support sales, communication, operations and search visibility.</p>
+              </div>
+            </article>
+            <article class="geo-card reveal" style="--delay: 0.3s">
+              <div class="geo-icon"><span class="material-symbols-rounded" aria-hidden="true">public</span></div>
+              <div class="geo-text">
+                <h4>Where do we operate?</h4>
+                <p>TIBU is focused on the United States market and provides remote bilingual support in English and Spanish for businesses serving diverse customers.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trust / Expertise Section -->
+      <section id="expertise" class="section bg-light-panel" aria-labelledby="expertise-heading">
+        <div class="container">
+          <div class="section-header center reveal">
+            <h2 class="eyebrow">Experience</h2>
+            <h3 id="expertise-heading" class="section-title">Selected experience across sensitive and competitive industries.</h3>
+            <p class="section-desc">We communicate experience without exposing private clients, confidential systems or sensitive project details.</p>
+          </div>
+          <div class="expertise-grid">
+            <article class="expertise-card reveal" style="--delay: 0.1s">
+              <div class="icon-wrap" aria-hidden="true"><span class="material-symbols-rounded">security</span></div>
+              <h4>Secure Private Portals</h4>
+              <p>Private web environments and access-controlled experiences for organizations that need careful handling of information.</p>
+            </article>
+            <article class="expertise-card reveal" style="--delay: 0.2s">
+              <div class="icon-wrap" aria-hidden="true"><span class="material-symbols-rounded">flight_takeoff</span></div>
+              <h4>Tourism Platforms</h4>
+              <p>Tourism websites and digital experiences built to explain offers clearly, support booking paths and improve visitor confidence.</p>
+            </article>
+            <article class="expertise-card reveal" style="--delay: 0.3s">
+              <div class="icon-wrap" aria-hidden="true"><span class="material-symbols-rounded">real_estate_agent</span></div>
+              <h4>Real Estate</h4>
+              <p>Real estate websites and property-focused experiences built around listings, trust, visual clarity and lead capture.</p>
+            </article>
+            <article class="expertise-card reveal" style="--delay: 0.4s">
+              <div class="icon-wrap" aria-hidden="true"><span class="material-symbols-rounded">domain</span></div>
+              <h4>Enterprise Systems</h4>
+              <p>Internal business systems, workflow automation and private portals designed to reduce manual work and organize operations.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Solutions / Services -->
+      <section id="solutions" class="section section-spaced" aria-labelledby="solutions-heading">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2 class="eyebrow">Our Solutions</h2>
+            <h3 id="solutions-heading" class="section-title">We do not just build websites.<br/>We build <span class="text-gradient">digital infrastructure.</span></h3>
+          </div>
+          <div class="solutions-grid">
+            <article class="solution-item reveal">
+              <div class="solution-header">
+                <span class="material-symbols-rounded" aria-hidden="true">speed</span>
+                <h4>High-Performance Websites</h4>
+              </div>
+              <p>Fast, mobile-first websites that explain your business clearly, guide visitors toward action and provide a stronger foundation for search visibility.</p>
+              <ul class="feature-list" aria-label="Web application features">
+                <li><span class="material-symbols-rounded" aria-hidden="true">check</span> Semantic HTML &amp; Technical SEO</li>
+                <li><span class="material-symbols-rounded" aria-hidden="true">check</span> Core Web Vitals Optimization</li>
+                <li><span class="material-symbols-rounded" aria-hidden="true">check</span> Clear conversion paths</li>
+              </ul>
+            </article>
+            <article class="solution-item reveal" style="--delay: 0.1s">
+              <div class="solution-header">
+                <span class="material-symbols-rounded" aria-hidden="true">account_tree</span>
+                <h4>Process Automation</h4>
+              </div>
+              <p>Reduce repetitive work by connecting forms, booking flows, client information, internal tools and business processes around the way your team actually works.</p>
+              <ul class="feature-list" aria-label="Process automation features">
+                <li><span class="material-symbols-rounded" aria-hidden="true">check</span> Form and booking workflows</li>
+                <li><span class="material-symbols-rounded" aria-hidden="true">check</span> Client intake organization</li>
+                <li><span class="material-symbols-rounded" aria-hidden="true">check</span> Business process automation</li>
+              </ul>
+            </article>
+            <article class="solution-item reveal" style="--delay: 0.2s">
+              <div class="solution-header">
+                <span class="material-symbols-rounded" aria-hidden="true">dashboard_customize</span>
+                <h4>Private Business Systems</h4>
+              </div>
+              <p>Private portals and internal systems where teams or clients can access information, documents, reports or workflows in one organized place.</p>
+              <ul class="feature-list" aria-label="Enterprise portal features">
+                <li><span class="material-symbols-rounded" aria-hidden="true">check</span> Private access areas</li>
+                <li><span class="material-symbols-rounded" aria-hidden="true">check</span> Internal dashboards</li>
+                <li><span class="material-symbols-rounded" aria-hidden="true">check</span> Document and workflow organization</li>
+              </ul>
+            </article>
+            <article class="solution-item reveal" style="--delay: 0.3s">
+              <div class="solution-header">
+                <span class="material-symbols-rounded" aria-hidden="true">translate</span>
+                <h4>Bilingual Digital Presence</h4>
+              </div>
+              <p>Build a clearer digital presence for businesses serving English and Spanish-speaking customers without making communication feel generic.</p>
+              <ul class="feature-list" aria-label="Bilingual service features">
+                <li><span class="material-symbols-rounded" aria-hidden="true">check</span> English and Spanish content support</li>
+                <li><span class="material-symbols-rounded" aria-hidden="true">check</span> Bilingual service pages</li>
+                <li><span class="material-symbols-rounded" aria-hidden="true">check</span> Clear customer communication</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Benefits / Authority Section -->
+      <section id="benefits" class="section bg-light-panel" aria-labelledby="benefits-heading">
+        <div class="container">
+          <div class="benefits-wrapper">
+            <div class="benefits-copy reveal">
+            <h2 class="eyebrow">Why TIBU</h2>
+            <h3 id="benefits-heading" class="section-title">Engineering discipline meets human business clarity.</h3>
+            <p class="section-desc">At TIBU, we believe a website should not be a digital brochure. It should be infrastructure: fast, structured, searchable and built to support real business operations.</p>
+
+              <div class="benefit-points" role="list">
+                <article class="b-point" role="listitem">
+                  <div class="b-icon"><span class="material-symbols-rounded" aria-hidden="true">bolt</span></div>
+                  <div class="b-content">
+                    <h5>Engineering-first mindset</h5>
+                    <p>We think about performance, structure, integrations and long-term maintainability from the start.</p>
+                  </div>
+                </article>
+                <article class="b-point" role="listitem">
+                  <div class="b-icon"><span class="material-symbols-rounded" aria-hidden="true">lock</span></div>
+                  <div class="b-content">
+                    <h5>Conversion-focused design</h5>
+                    <p>Pages are designed to help visitors understand the offer, trust the business and take the next step.</p>
+                  </div>
+                </article>
+                <article class="b-point" role="listitem">
+                  <div class="b-icon"><span class="material-symbols-rounded" aria-hidden="true">insights</span></div>
+                  <div class="b-content">
+                    <h5>Search-ready foundation</h5>
+                    <p>Content, headings, page structure and schema are planned so people and search engines can understand the business clearly.</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="benefits-visual reveal" aria-hidden="true">
+              <div class="dashboard-mockup">
+                <div class="dash-top">
+                  <div><span></span><span></span><span></span></div>
+                  <p>What strong infrastructure supports</p>
+                </div>
+                <div class="dash-grid">
+                  <div class="d-box">
+                    <p>Website</p>
+                    <strong>Fast</strong>
+                  </div>
+                  <div class="d-box">
+                    <p>Content</p>
+                    <strong>Clear</strong>
+                  </div>
+                  <div class="d-box">
+                    <p>Search</p>
+                    <strong>Ready</strong>
+                  </div>
+                  <div class="d-box">
+                    <p>Operations</p>
+                    <strong>Organized</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- AI Search Readiness -->
+      <section id="ai-search" class="section section-spaced" aria-labelledby="ai-search-heading">
+        <div class="container">
+          <div class="section-header center reveal">
+            <h2 class="eyebrow">AI Search Readiness</h2>
+            <h3 id="ai-search-heading" class="section-title">Built for how people search now.</h3>
+            <p class="section-desc">Customers are using Google, AI Overviews, ChatGPT, Gemini, Perplexity and Bing Copilot to compare businesses. TIBU builds pages that are easier for people and answer engines to understand.</p>
+          </div>
+          <div class="expertise-grid">
+            <article class="expertise-card reveal">
+              <div class="icon-wrap" aria-hidden="true"><span class="material-symbols-rounded">schema</span></div>
+              <h4>Structured content</h4>
+              <p>Clear sections, semantic HTML, service explanations and crawlable text that answer real customer questions.</p>
+            </article>
+            <article class="expertise-card reveal" style="--delay: 0.1s">
+              <div class="icon-wrap" aria-hidden="true"><span class="material-symbols-rounded">psychology</span></div>
+              <h4>Answer-ready pages</h4>
+              <p>FAQ architecture, direct answers and helpful content written for humans first and search engines second.</p>
+            </article>
+            <article class="expertise-card reveal" style="--delay: 0.2s">
+              <div class="icon-wrap" aria-hidden="true"><span class="material-symbols-rounded">account_tree</span></div>
+              <h4>Entity SEO</h4>
+              <p>Consistent language around your services, audience, location, expertise and business category.</p>
+            </article>
+            <article class="expertise-card reveal" style="--delay: 0.3s">
+              <div class="icon-wrap" aria-hidden="true"><span class="material-symbols-rounded">data_object</span></div>
+              <h4>Schema.org foundation</h4>
+              <p>Structured data for organization, services, website, contact information and FAQs when appropriate.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ / AEO Optimized -->
+      <section id="faq" class="section section-spaced" aria-labelledby="faq-heading">
+        <div class="container">
+          <div class="section-header center reveal">
+            <h2 class="eyebrow">Frequently Asked Questions</h2>
+            <h3 id="faq-heading" class="section-title">Clear answers for business owners and search engines.</h3>
+            <p class="section-desc">Direct answers about what TIBU does, who we help and how our process works.</p>
+          </div>
+          <div class="faq-accordion reveal">
+            <details class="faq-item">
+              <summary>What does TIBU Digital Services do? <span class="material-symbols-rounded" aria-hidden="true">add</span></summary>
+              <div class="faq-content">
+                <p>TIBU Digital Services builds digital infrastructure for businesses in the United States. This includes high-performance websites, private business systems, process automation, technical SEO, AI search readiness and bilingual English-Spanish digital support.</p>
+              </div>
+            </details>
+            <details class="faq-item">
+              <summary>Is TIBU a marketing agency or a technology company? <span class="material-symbols-rounded" aria-hidden="true">add</span></summary>
+              <div class="faq-content">
+                <p>TIBU is closer to a digital engineering and business growth partner than a traditional marketing agency. We focus on websites, systems, automation, search structure and operational clarity.</p>
+              </div>
+            </details>
+            <details class="faq-item">
+              <summary>Do you build websites only, or also private systems? <span class="material-symbols-rounded" aria-hidden="true">add</span></summary>
+              <div class="faq-content">
+                <p>We build both. TIBU creates public websites as well as private portals, internal dashboards, document areas, workflow tools and business systems that help teams organize operations.</p>
+              </div>
+            </details>
+            <details class="faq-item">
+              <summary>Can TIBU help businesses in the United States? <span class="material-symbols-rounded" aria-hidden="true">add</span></summary>
+              <div class="faq-content">
+                <p>Yes. TIBU is positioned for small and mid-sized businesses in the United States, especially companies that need a clearer online presence, better digital operations or bilingual English-Spanish support.</p>
+              </div>
+            </details>
+            <details class="faq-item">
+              <summary>Are your websites optimized for Google and AI search? <span class="material-symbols-rounded" aria-hidden="true">add</span></summary>
+              <div class="faq-content">
+                <p>Yes. We structure websites with semantic HTML, clear headings, helpful content, service clarity, internal linking and Schema.org where appropriate. We do not guarantee rankings, but we build a stronger technical and content foundation for search visibility.</p>
+              </div>
+            </details>
+            <details class="faq-item">
+              <summary>Do you provide bilingual English and Spanish support? <span class="material-symbols-rounded" aria-hidden="true">add</span></summary>
+              <div class="faq-content">
+                <p>Yes. TIBU supports businesses that serve English and Spanish-speaking customers through bilingual communication, content support and digital presence planning.</p>
+              </div>
+            </details>
+            <details class="faq-item">
+              <summary>Do you work with sensitive or private projects? <span class="material-symbols-rounded" aria-hidden="true">add</span></summary>
+              <div class="faq-content">
+                <p>Yes. TIBU has experience with private portals and sensitive digital projects. We discuss requirements carefully during consultation and avoid exposing confidential client information publicly.</p>
+              </div>
+            </details>
+            <details class="faq-item">
+              <summary>How does the consultation process work? <span class="material-symbols-rounded" aria-hidden="true">add</span></summary>
+              <div class="faq-content">
+                <p>The process starts with a consultation to understand your business, goals, audience, current tools and digital needs. After that, TIBU recommends the right website, system, automation or SEO structure before work begins.</p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="section cta-section" id="contact" aria-labelledby="cta-heading">
+        <div class="container">
+          <div class="contact-grid">
+            <div class="cta-box card-glass reveal">
+              <div class="glow-orb" aria-hidden="true"></div>
+              <div class="cta-content">
+                <h2 id="cta-heading">Ready to build a digital presence people can understand and trust?</h2>
+                <p>Book a consultation to discuss your website, systems, automation, search readiness and business goals.</p>
+                <div class="cta-buttons">
+                  <a href="https://calendly.com/tibudigitalservices/30min" class="btn btn-primary btn-lg" target="_blank" rel="noopener" aria-label="Book your consultation on Calendly">Book Your Consultation</a>
+                  <a href="mailto:tibudigitalservices@gmail.com" class="btn btn-secondary btn-lg" aria-label="Send an email to contact sales">Contact Sales</a>
+                </div>
+              </div>
+            </div>
+            <div class="social-box card-glass reveal" style="--delay: 0.1s">
+              <div class="social-content">
+                <div class="social-icon-large">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram logo" width="48" height="48" decoding="async" />
+                </div>
+                <h3>Connect with us</h3>
+                <p>Follow our engineering process, digital insights, and company updates on Instagram.</p>
+                <a href="https://www.instagram.com/tibudigitalservices/" class="btn btn-secondary w-full" target="_blank" rel="noopener" aria-label="Follow TIBU on Instagram">
+                  Follow @tibudigitalservices
+                  <span class="material-symbols-rounded" aria-hidden="true">open_in_new</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <img src="assets/tibu-logo-dark.png" alt="TIBU Digital Services" class="footer-logo" width="140" height="26" loading="lazy" decoding="async" />
+          <p>Digital infrastructure for businesses ready to grow: websites, private systems, automation, technical SEO and bilingual digital support.</p>
+          <div class="social-links" aria-label="Social media links">
+            <a href="https://www.instagram.com/tibudigitalservices/" target="_blank" rel="noopener" aria-label="Follow us on Instagram">
+              <span class="material-symbols-rounded" aria-hidden="true">photo_camera</span>
+            </a>
+            <a href="mailto:tibudigitalservices@gmail.com" aria-label="Send us an email">
+              <span class="material-symbols-rounded" aria-hidden="true">mail</span>
+            </a>
+          </div>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <div class="footer-col">
+            <h4>Solutions</h4>
+            <a href="#solutions">High-Performance Websites</a>
+            <a href="#solutions">Private Business Systems</a>
+            <a href="#solutions">Process Automation</a>
+            <a href="#ai-search">AI Search Readiness</a>
+            <a href="#solutions">Bilingual Digital Support</a>
+          </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <a href="#about">About TIBU</a>
+            <a href="#expertise">Experience</a>
+            <a href="#benefits">Benefits</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </nav>
       </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container footer-content">
-      <img src="tibu-logo-dark.png" alt="TIBU Digital Services logo">
-      <div>
-        <p>© 2026 TIBU Digital Services. All rights reserved.</p>
-        <p>Online support • English & Spanish</p>
+      <div class="container footer-bottom">
+        <p>&copy; 2026 TIBU Digital Services. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const menuButton = document.querySelector(".menu-toggle");
-    const navLinks = document.querySelector(".nav-links");
-
-    if (menuButton && navLinks) {
-      menuButton.addEventListener("click", function () {
-        navLinks.classList.toggle("open");
-        menuButton.setAttribute(
-          "aria-expanded",
-          navLinks.classList.contains("open") ? "true" : "false"
-        );
-      });
-    }
-  });
-</script>
-  
+  <script src="script.js"></script>
 </body>
 </html>
